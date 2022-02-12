@@ -3,7 +3,7 @@
 error_reporting(0);
 
 if (isset($_POST["amount"]) && $_POST["amount"] !== null) {
-    $company = $_POST["company"]
+    $company = $_POST["company"];
     $amount = $_POST["amount"];
     $worker = $_POST["worker"];
 
