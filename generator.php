@@ -104,9 +104,7 @@ if (isset($_POST["amount"]) && $_POST["amount"] !== null) {
         <div class="block-footer">
             <div class="row">
                 <div class="col-xs-12">
-                    <a class="button-generate">
-                        Сгенерировать
-                    </a>
+                    <button class="button-generate" value="generator">
                 </div>
             </div>
         </div>
